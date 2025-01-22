@@ -354,3 +354,36 @@ main {
   width: 250px;
 }
 
+.stories-grid-inner h1 {
+  padding-left: 37px;
+  line-height: 1.8;
+}
+
+.story-others-btn {
+  position: relative;
+  bottom: 23px;
+  left: 38px;
+}
+
+.green-btn{
+  background-color: #95B226;
+}
+
+.purple-btn {
+  background-color: #5D58F0;
+}
+
+.stories-grid-inner button {
+  border-radius: 47px;
+  padding: 10px 19px;
+  border: none;
+  /* background-color: #3CD8E8; */
+  color: white;
+  cursor: pointer;
+}
+
+.stories-view-btn {
+  text-align: center;
+  margin-top: 80px;
+}
+  
