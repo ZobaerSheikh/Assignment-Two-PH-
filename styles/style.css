@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #F7F7F7;
+}
+
+
+/* Header Styles */
+.header {
+    margin-top: 20px;
+  }
+  
+  /* Navigation Styles */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    margin: 0 auto;
+  }
+  
+  .navbar-hr {
+    display: none;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  
+  .nav-logo .nav-logo-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .nav-links a {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  #home {
+    color: #FEA301;
+  }
+  
+  #about {
+    color: #01ACFD;
+  }
+  
+  #facilities {
+    color: #05D4DF;
+  }
+  
+  #admission {
+    color: #5D58EF;
+  }
+  
+  .nav-btn {
+    background-color: #FEA301;
+    padding: 10px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    transition: .4s ease-in;
+    cursor: pointer;
+  }
+  
+  .nav-btn:hover {
+    background-color: #fc9117;
+    transition: .4s ease-in;
+  }
+  
+  .responsive-menu {
+    display: none;
+  }
